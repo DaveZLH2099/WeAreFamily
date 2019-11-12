@@ -1,0 +1,1417 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="58710e50-8956-4e37-8a2a-8633e8e1fe1a" name="Default Changelist" comment="詹兰海">
+      <change afterPath="$PROJECT_DIR$/../Airquality/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/Airquality.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/src/java/cn/air/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/src/java/cn/air/dao/BookMangerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/src/java/cn/air/dao/BookMangerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/src/java/cn/air/dao/EbookkentryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/src/java/cn/air/dao/EbookkentryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/src/java/cn/air/dao/HotelRoomMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/src/java/cn/air/pojo/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/src/java/cn/air/pojo/Ebookentry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/src/java/cn/air/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/src/java/cn/air/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/src/java/cn/air/service/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/src/java/cn/air/tools/BigDecimalUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/src/java/cn/air/tools/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/src/java/cn/air/tools/DateCount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/src/java/cn/air/tools/GetSuijiShu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/src/java/cn/air/tools/PageSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/src/main/webapp/WEB-INF/AddAir.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/src/main/webapp/WEB-INF/Login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/src/main/webapp/WEB-INF/ShowAir.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/src/main/webapp/css/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/src/main/webapp/js/jquery-1.8.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/src/main/webapp/js/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/src/resource/applicationContext-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/src/resource/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/src/resource/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/src/resource/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Airquality/src/resource/springmvc-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Git001.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/applicationContext-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/springmvc-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/ICO-066.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/btnbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/btnbg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/btnbg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/btnbg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/btnbg4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/buttonbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/bz00.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/bz01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/bz02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/c02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/c03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/cbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/clist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/close1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/d01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/d02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/d03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/d04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/d05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/d06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/d07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/diskbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/f01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/f02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/f03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/f04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/f05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/f06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/fjt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/i04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/i06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/i07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/i08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/iadd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/ibtnbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/ico01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/ico02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/ico03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/ico04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/ico05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/ico06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/icon01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/icon02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/icon03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/icon06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/icon07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/icon08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/icon09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/icon10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/icon11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/icon12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/icon13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/icon15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/icon16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/icon17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/icon18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/img01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/inputbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/itabbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/itabbg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/jszc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/jtx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/l01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/l02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/l03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/l04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/lbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/lbg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/lc00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/lc01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/lc02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/lc03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/lc04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/lc05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/lc06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/leftico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/leftico01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/leftico02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/leftico03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/leftico04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/leftline.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/leftmenubg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/lefttop.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/libg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/light1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/line.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/line1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/list.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/list1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/list2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/loginbg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/loginbg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/loginbg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/loginbg4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/logininfo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/logininfo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/logininfo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/logininfo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/loginpassword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/loginsj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/loginuser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/msg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/navbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/next.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/pre.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/px.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/righttop.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/rlist.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/sj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/sub-menu-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/sun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/t01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/t02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/t03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/t04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/t05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/tbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/tcbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/th.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/ticon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/toolbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/topbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/topleft.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/topright.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/ub1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/uew_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/uew_icon_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/ulist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/userbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/images/yzmbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/js/billa/hotleVipla.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/js/cloud.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/js/format+zh_CN,default,corechart.I.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/js/jquery-2.1.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/js/jquery.ba-resize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/js/jquery.gvChart-1.0.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/js/jquery.idTabs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/js/jsapi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/js/laydate/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/js/laydate/need/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/js/laydate/skins/dahong/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/js/laydate/skins/dahong/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/js/laydate/skins/danlan/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/js/laydate/skins/danlan/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/js/laydate/skins/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/js/laydate/skins/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/js/laydate/skins/molv/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/js/laydate/skins/molv/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/js/laydate/skins/qianhuang/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/js/laydate/skins/qianhuang/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/js/laydate/skins/yahui/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/js/laydate/skins/yahui/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/js/laydate/skins/yalan/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/js/laydate/skins/yalan/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/js/pie.htc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/js/select-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/main/webapp/src/jquery.gvChart-1.0.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/resource/applicationContext-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/resource/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/resource/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/resource/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/src/resource/springmvc-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/META-INF/HotleManager.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/applicationContext-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/controller/HotelVipController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/controller/HotleControiller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/controller/HotleRuZhuXxController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/controller/billController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/dao/HotelRoomMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/dao/HotelRoomMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/dao/HotelVipMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/dao/HotelVipMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/dao/HotleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/dao/HotleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/dao/HotleRuzhuXxMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/dao/HotleRuzhuXxMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/interceptor/SysInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/pojo/HotelXiaofei.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/pojo/HotleRoom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/pojo/HotleRuzhuXx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/pojo/HotleVip.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/pojo/Hotlemanger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/service/HotelRoomService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/service/HotelRoomServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/service/HotelVipServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/service/HotleManergerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/service/HotleRuZhuXxServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/service/HotleRuzhuXxService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/service/HotleVipService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/service/HotlemangerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/tools/BigDecimalUtil$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/tools/BigDecimalUtil$BigDecimalOprations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/tools/BigDecimalUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/tools/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/tools/DateCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/tools/GetSuijiShu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/cn/hotle/tools/PageSupport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/classes/springmvc-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/lib/aspectjweaver-1.9.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/lib/c3p0-0.9.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/lib/commons-fileupload-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/lib/commons-io-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/lib/fastjson-1.2.59.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/lib/lombok-1.18.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/lib/mchange-commons-java-0.2.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/lib/mybatis-3.4.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/lib/mybatis-spring-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/lib/mysql-connector-java-5.1.40.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/lib/servlet-api-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/lib/spring-aop-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/lib/spring-aspects-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/lib/spring-beans-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/lib/spring-context-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/lib/spring-context-support-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/lib/spring-core-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/lib/spring-expression-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/lib/spring-jcl-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/lib/spring-jdbc-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/lib/spring-orm-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/lib/spring-test-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/lib/spring-tx-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/lib/spring-web-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/lib/spring-webmvc-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/ui/bill/billinfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/ui/bill/checkin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/ui/bill/inroominfo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/ui/bill/out.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/ui/bill/outroom.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/ui/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/ui/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/ui/left.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/ui/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/ui/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/ui/top.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/ui/vip/addvip.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/ui/vip/vip.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/css/select.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/kindeditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/about.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_01.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_02.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_03.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_04.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_05.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_06.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_07.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_08.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_09.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_10.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_11.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_12.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_13.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_14.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_15.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_16.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_17.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_18.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_19.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_20.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_21.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_22.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_23.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_24.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_25.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_26.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_27.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_28.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_29.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_30.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_31.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_32.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_33.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_34.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_35.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/emoticons/etc_36.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/flash.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/image.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/link.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/media.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/plainpaste.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/remote_image.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/plugins/wordpaste.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/skins/default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/skins/default.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/skins/div.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/skins/dl.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/skins/editor.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/skins/ol.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/skins/p.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/skins/tinymce.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/skins/tinymce.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/editor/skins/ul.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/ICO-066.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/btnbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/btnbg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/btnbg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/btnbg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/btnbg4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/buttonbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/bz00.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/bz01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/bz02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/c02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/c03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/cbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/clist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/close1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/d01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/d02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/d03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/d04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/d05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/d06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/d07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/diskbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/dp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/f01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/f02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/f03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/f04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/f05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/f06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/fjt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/i04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/i06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/i07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/i08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/iadd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/ibtnbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/ico01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/ico02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/ico03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/ico04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/ico05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/ico06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/icon01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/icon02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/icon03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/icon06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/icon07.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/icon08.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/icon09.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/icon10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/icon11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/icon12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/icon13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/icon15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/icon16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/icon17.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/icon18.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/img01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/inputbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/itabbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/itabbg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/jszc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/jtx.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/l01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/l02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/l03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/l04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/lbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/lbg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/lc00.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/lc01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/lc02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/lc03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/lc04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/lc05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/lc06.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/leftico.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/leftico01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/leftico02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/leftico03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/leftico04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/leftline.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/leftmenubg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/lefttop.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/libg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/light1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/line.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/line1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/list.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/list1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/list2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/loginbg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/loginbg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/loginbg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/loginbg4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/logininfo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/logininfo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/logininfo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/logininfo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/loginpassword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/loginsj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/loginuser.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/logo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/logo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/msg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/navbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/next.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/pre.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/px.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/righttop.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/rlist.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/sj.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/sub-menu-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/sun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/t01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/t02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/t03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/t04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/t05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/tbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/tcbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/th.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/ticon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/toolbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/topbg.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/topleft.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/topright.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/ub1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/uew_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/uew_icon_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/ulist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/userbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/images/yzmbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/js/billa/hotleVipla.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/js/cloud.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/js/format+zh_CN,default,corechart.I.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/js/jquery-2.1.4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/js/jquery.ba-resize.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/js/jquery.gvChart-1.0.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/js/jquery.idTabs.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/js/jsapi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/js/laydate/laydate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/js/laydate/need/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/js/laydate/skins/dahong/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/js/laydate/skins/dahong/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/js/laydate/skins/danlan/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/js/laydate/skins/danlan/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/js/laydate/skins/default/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/js/laydate/skins/default/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/js/laydate/skins/molv/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/js/laydate/skins/molv/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/js/laydate/skins/qianhuang/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/js/laydate/skins/qianhuang/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/js/laydate/skins/yahui/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/js/laydate/skins/yahui/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/js/laydate/skins/yalan/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/js/laydate/skins/yalan/laydate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/js/pie.htc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/js/select-ui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/HotleManager/src/jquery.gvChart-1.0.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/META-INF/HotleManager.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/applicationContext-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/controller/HotelVipController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/controller/HotleControiller.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/controller/HotleRuZhuXxController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/controller/LoginController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/controller/billController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/dao/HotelRoomMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/dao/HotelRoomMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/dao/HotelVipMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/dao/HotelVipMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/dao/HotleMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/dao/HotleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/dao/HotleRuzhuXxMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/dao/HotleRuzhuXxMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/interceptor/SysInterceptor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/pojo/HotelXiaofei.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/pojo/HotleRoom.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/pojo/HotleRuzhuXx.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/pojo/HotleVip.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/pojo/Hotlemanger.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/service/HotelRoomService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/service/HotelRoomServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/service/HotelVipServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/service/HotleManergerServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/service/HotleRuZhuXxServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/service/HotleRuzhuXxService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/service/HotleVipService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/service/HotlemangerService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/tools/BigDecimalUtil$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/tools/BigDecimalUtil$BigDecimalOprations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/tools/BigDecimalUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/tools/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/tools/DateCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/tools/GetSuijiShu.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/cn/hotle/tools/PageSupport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HotleManager/target/classes/springmvc-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/Mybatisfirst.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/src/main/java/org/jbit/jopo/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/src/main/java/org/jbit/jopo/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/src/main/java/org/jbit/jopo/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/src/main/java/org/jbit/jopo/Singleton02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/src/main/java/org/jbit/jopo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/src/main/java/org/jbit/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/src/main/java/org/jbit/text/UsetMapperText.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/src/main/resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/src/main/resources/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/src/main/resources/mapper/UserListMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/src/main/resources/mapper/addUser.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/src/test/java/SingletonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/src/test/java/SpringSingleon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/target/classes/META-INF/Mybatisfirst.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/target/classes/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/target/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/target/classes/mapper/UserListMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/target/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/target/classes/mapper/addUser.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/target/classes/org/jbit/jopo/Address.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/target/classes/org/jbit/jopo/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/target/classes/org/jbit/jopo/Singleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/target/classes/org/jbit/jopo/Singleton02.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/target/classes/org/jbit/jopo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/target/classes/org/jbit/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/target/classes/org/jbit/text/UsetMapperText.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/target/test-classes/META-INF/Mybatisfirst.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/target/test-classes/SingletonTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Mybatisfirst/target/test-classes/SpringSingleon.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/classes/META-INF/PlayTime001.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/classes/applicationContext-mybatis.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/classes/cn/school/controller/login/Test001.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/classes/cn/school/tools/BigDecimalUtil$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/classes/cn/school/tools/BigDecimalUtil$BigDecimalOprations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/classes/cn/school/tools/BigDecimalUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/classes/cn/school/tools/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/classes/cn/school/tools/PageSupport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/classes/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/classes/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/classes/springmvc-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/lib/aopalliance-1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/lib/aspectjweaver-1.9.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/lib/c3p0-0.9.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/lib/commons-fileupload-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/lib/commons-io-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/lib/commons-logging-1.1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/lib/fastjson-1.2.59.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/lib/lombok-1.18.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/lib/mchange-commons-java-0.2.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/lib/mybatis-3.4.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/lib/mybatis-spring-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/lib/mysql-connector-java-5.1.40.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/lib/servlet-api-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/lib/spring-aop-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/lib/spring-aspects-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/lib/spring-beans-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/lib/spring-context-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/lib/spring-context-support-4.0.0.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/lib/spring-core-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/lib/spring-expression-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/lib/spring-jcl-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/lib/spring-jdbc-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/lib/spring-orm-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/lib/spring-test-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/lib/spring-tx-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/lib/spring-web-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/lib/spring-webmvc-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/img/friends/fr-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/img/friends/fr-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/img/friends/fr-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/img/friends/fr-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/img/friends/fr-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/img/friends/fr-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/img/friends/fr-07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/img/friends/fr-08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/img/friends/fr-09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/img/friends/fr-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/img/friends/fr-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/img/portfolio/login-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/img/portfolio/port01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/img/portfolio/port02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/img/portfolio/port03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/img/portfolio/port04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/img/portfolio/port05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/img/portfolio/port06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/advanced-datatable/css/DT_bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/advanced-datatable/css/demo_page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/advanced-datatable/css/demo_table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/advanced-datatable/css/demo_table_jui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/advanced-datatable/css/jquery.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/advanced-datatable/css/jquery.dataTables_themeroller.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/advanced-datatable/images/Sorting icons.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/advanced-datatable/images/back_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/advanced-datatable/images/back_enabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/advanced-datatable/images/back_enabled_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/advanced-datatable/images/details_close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/advanced-datatable/images/details_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/advanced-datatable/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/advanced-datatable/images/forward_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/advanced-datatable/images/forward_enabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/advanced-datatable/images/forward_enabled_hover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/advanced-datatable/images/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/advanced-datatable/images/sort_asc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/advanced-datatable/images/sort_both.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/advanced-datatable/images/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/advanced-datatable/images/sort_desc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/advanced-datatable/js/DT_bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/advanced-datatable/js/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/advanced-datatable/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/advanced-datatable/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/bootstrap-datepicker/css/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/bootstrap-datepicker/js/bootstrap-datepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/bootstrap-daterangepicker/date.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/bootstrap-daterangepicker/daterangepicker-bs3.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/bootstrap-daterangepicker/daterangepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/bootstrap-daterangepicker/daterangepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/bootstrap-daterangepicker/moment.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/bootstrap-datetimepicker/css/datetimepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/bootstrap-fileupload/bootstrap-fileupload.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/bootstrap-fileupload/bootstrap-fileupload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/bootstrap-inputmask/bootstrap-inputmask.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/bootstrap-timepicker/compiled/timepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/bootstrap-timepicker/js/bootstrap-timepicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/bootstrap-wysihtml5/bootstrap-wysihtml5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/bootstrap-wysihtml5/bootstrap-wysihtml5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/bootstrap-wysihtml5/wysihtml5-0.3.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/bootstrap/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/bootstrap/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/bootstrap/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/bootstrap/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/chart-master/Chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/ckeditor/ckeditor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/dropzone/css/dropzone.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/dropzone/dropzone.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/dropzone/images/spritemap.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/dropzone/images/spritemap@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/fancybox/jquery.fancybox.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/fancybox/jquery.fancybox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/file-uploader/css/jquery.fileupload-noscript.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/file-uploader/css/jquery.fileupload-ui-noscript.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/file-uploader/css/jquery.fileupload-ui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/file-uploader/css/jquery.fileupload.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/file-uploader/img/loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/file-uploader/img/progressbar.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/file-uploader/js/cors/jquery.xdr-transport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/file-uploader/js/jquery.fileupload-audio.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/file-uploader/js/jquery.fileupload-image.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/file-uploader/js/jquery.fileupload-process.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/file-uploader/js/jquery.fileupload-ui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/file-uploader/js/jquery.fileupload-validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/file-uploader/js/jquery.fileupload-video.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/file-uploader/js/jquery.fileupload.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/file-uploader/js/jquery.iframe-transport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/file-uploader/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/file-uploader/js/vendor/jquery.ui.widget.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/flot/jquery.flot.crosshair.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/flot/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/flot/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/flot/jquery.flot.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/flot/jquery.flot.stack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/fullcalendar/bootstrap-fullcalendar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/fullcalendar/fullcalendar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/google-maps/data/points.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/google-maps/maplace.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/gritter/css/jquery.gritter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/gritter/css/jquery.gritter0.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/gritter/images/gritter-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/gritter/images/gritter-long.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/gritter/images/gritter.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/gritter/images/ie-spacer.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/gritter/js/jquery.gritter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/jquery-easy-pie-chart/jquery.easy-pie-chart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/jquery-easy-pie-chart/jquery.easy-pie-chart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/jquery/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/jquery/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/morris/morris.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/php-mail-form/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/raphael/raphael.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/xchart/d3.v3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/xchart/xcharts.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../PlayTime001/target/PlayTime001/lib/xchart/xcharts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/ShoopingManagerPlay01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/dao/BaseDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/dao/bill/BillDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/dao/bill/BillDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/dao/provider/ProviderDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/dao/provider/ProviderDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/dao/role/RoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/dao/role/RoleDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/dao/user/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/dao/user/UserDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/filter/CharacterEncoding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/filter/SysFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/mapper/BillMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/mapper/BillMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/pojo/Bill.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/pojo/Provider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/pojo/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/pojo/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/service/bill/BillService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/service/bill/BillServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/service/provider/ProviderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/service/provider/ProviderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/service/role/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/service/role/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/service/user/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/service/user/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/servlet/bill/BillControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/servlet/bill/BillServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/servlet/provider/ProviderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/servlet/provider/providerConttrol.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/servlet/user/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/servlet/user/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/servlet/user/UserControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/servlet/user/UserPwdUpdateControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/servlet/user/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/tools/BigDecimalUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/tools/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/tools/PageSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/java/cn/smbms/tools/StringToDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/WEB-INF/jsp/billadd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/WEB-INF/jsp/billlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/WEB-INF/jsp/billmodify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/WEB-INF/jsp/billview.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/WEB-INF/jsp/common/foot.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/WEB-INF/jsp/common/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/WEB-INF/jsp/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/WEB-INF/jsp/frame.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/WEB-INF/jsp/provideradd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/WEB-INF/jsp/providerlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/WEB-INF/jsp/providermodify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/WEB-INF/jsp/providerview.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/WEB-INF/jsp/pwdmodify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/WEB-INF/jsp/rollpage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/WEB-INF/jsp/useradd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/WEB-INF/jsp/userlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/WEB-INF/jsp/usermodify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/WEB-INF/jsp/userview.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/calendar/My97DatePicker.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/calendar/WdatePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/calendar/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/calendar/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/calendar/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/calendar/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/calendar/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/calendar/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/calendar/skin/datePicker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/calendar/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/calendar/skin/default/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/calendar/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/calendar/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/calendar/skin/whyGreen/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/css/public.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/images/buy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/images/clock.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/images/formBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/images/gys.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/images/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/images/leftBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/images/loginBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/images/login_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/images/login_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/images/mm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/images/n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/images/read.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/images/schu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/images/tc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/images/tianjia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/images/time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/images/xiugai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/images/y.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/images/yh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/images/zd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/js/billadd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/js/billlist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/js/billmodify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/js/billview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/js/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/js/provideradd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/js/providerlist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/js/providermodify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/js/providerview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/js/pwdmodify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/js/rollpage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/js/time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/js/useradd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/js/userlist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/js/usermodify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/js/userview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/resources/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/resources/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/resources/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/src/resources/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/dao/BaseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/dao/bill/BillDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/dao/bill/BillDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/dao/provider/ProviderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/dao/provider/ProviderDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/dao/role/RoleDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/dao/role/RoleDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/dao/user/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/dao/user/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/filter/CharacterEncoding.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/filter/SysFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/mapper/BillMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/mapper/BillMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/pojo/Bill.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/pojo/Provider.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/pojo/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/pojo/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/service/bill/BillService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/service/bill/BillServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/service/provider/ProviderService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/service/provider/ProviderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/service/role/RoleService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/service/role/RoleServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/service/user/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/service/user/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/servlet/bill/BillControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/servlet/bill/BillServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/servlet/provider/ProviderServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/servlet/provider/providerConttrol.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/servlet/user/LoginServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/servlet/user/LogoutServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/servlet/user/UserControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/servlet/user/UserPwdUpdateControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/servlet/user/UserServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/tools/BigDecimalUtil$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/tools/BigDecimalUtil$BigDecimalOprations.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/tools/BigDecimalUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/tools/Constants.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/tools/PageSupport.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/cn/smbms/tools/StringToDate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/database.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/classes/springmvc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/jsp/billadd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/jsp/billlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/jsp/billmodify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/jsp/billview.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/jsp/common/foot.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/jsp/common/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/jsp/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/jsp/frame.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/jsp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/jsp/provideradd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/jsp/providerlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/jsp/providermodify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/jsp/providerview.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/jsp/pwdmodify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/jsp/rollpage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/jsp/useradd.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/jsp/userlist.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/jsp/usermodify.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/jsp/userview.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/lib/c3p0-0.9.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/lib/fastjson-1.2.59.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/lib/lombok-1.18.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/lib/mchange-commons-java-0.2.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.4.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.40.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/lib/servlet-api-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/lib/spring-orm-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/lib/spring-test-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.1.9.RELEASE.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/calendar/My97DatePicker.htm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/calendar/WdatePicker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/calendar/calendar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/calendar/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/calendar/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/calendar/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/calendar/lang/zh-tw.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/calendar/skin/WdatePicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/calendar/skin/datePicker.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/calendar/skin/default/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/calendar/skin/default/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/calendar/skin/whyGreen/bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/calendar/skin/whyGreen/datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/calendar/skin/whyGreen/img.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/css/public.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/images/buy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/images/clock.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/images/formBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/images/gys.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/images/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/images/leftBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/images/loginBg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/images/login_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/images/login_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/images/mm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/images/n.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/images/read.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/images/schu.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/images/search.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/images/tc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/images/tianjia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/images/time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/images/xiugai.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/images/y.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/images/yh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/images/zd.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/js/billadd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/js/billlist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/js/billmodify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/js/billview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/js/jquery-1.8.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/js/provideradd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/js/providerlist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/js/providermodify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/js/providerview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/js/pwdmodify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/js/rollpage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/js/time.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/js/useradd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/js/userlist.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/js/usermodify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/js/userview.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/ShoopingManagerPlay01-1.0-SNAPSHOT/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/classes/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/classes/cn/smbms/dao/BaseDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/classes/cn/smbms/dao/bill/BillDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/classes/cn/smbms/dao/bill/BillDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/classes/cn/smbms/dao/provider/ProviderDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/classes/cn/smbms/dao/provider/ProviderDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/classes/cn/smbms/dao/role/RoleDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/classes/cn/smbms/dao/role/RoleDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/classes/cn/smbms/dao/user/UserDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/classes/cn/smbms/dao/user/UserDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/classes/cn/smbms/filter/CharacterEncoding.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/classes/cn/smbms/filter/SysFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/classes/cn/smbms/mapper/BillMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/classes/cn/smbms/mapper/BillMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/classes/cn/smbms/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/classes/cn/smbms/mapper/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ShoopingManagerPlay01/target/classes/cn/smbms/pojo/Role.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Struts2001/src/java/cn/struts/action/FileUpAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Struts2001/target/classes/cn/struts/action/HelloAction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot020/src/main/java/com/appliaction/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootplay001/target/classes/cn/controller/NewCon.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springbootplay002/target/classes/cn/HellowAcation.class" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4600">
+              <caret line="184" selection-start-line="184" selection-end-line="184" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resource/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="50">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resource/mybatis-config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/resource/springmvc-servlet.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1451">
+              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resource/applicationContext-mybatis.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1146">
+              <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+              <folding>
+                <element signature="e#1471#1482#0" expanded="true" />
+                <element signature="e#1528#1536#0" expanded="true" />
+                <element signature="e#1579#1588#0" expanded="true" />
+                <element signature="e#1635#1648#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resource/database.properties">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/resource/applicationContext-mybatis.xml" />
+        <option value="$PROJECT_DIR$/src/resource/mybatis-config.xml" />
+        <option value="$PROJECT_DIR$/src/resource/springmvc-servlet.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/Y2Studying/jar包/apache-maven-3.6.0" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="117" />
+    <option name="y" value="18" />
+    <option name="width" value="1109" />
+    <option name="height" value="988" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Git001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Git001" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\ideaMyWork\Git001\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58710e50-8956-4e37-8a2a-8633e8e1fe1a" name="Default Changelist" comment="" />
+      <created>1573522559916</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573522559916</updated>
+      <workItem from="1573522563148" duration="995000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="995000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.10623229" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Bean Validation" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="詹兰海" />
+    <option name="LAST_COMMIT_MESSAGE" value="詹兰海" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4600">
+          <caret line="184" selection-start-line="184" selection-end-line="184" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/database.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1451">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/applicationContext-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1146">
+          <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
+          <folding>
+            <element signature="e#1471#1482#0" expanded="true" />
+            <element signature="e#1528#1536#0" expanded="true" />
+            <element signature="e#1579#1588#0" expanded="true" />
+            <element signature="e#1635#1648#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="18" lean-forward="true" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resource/springmvc-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
